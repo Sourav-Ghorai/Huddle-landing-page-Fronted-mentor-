@@ -1,0 +1,92 @@
+body{
+  background-image: url("../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#F1F1F1;
+}
+h3{
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  font-size: 2.7vw;
+  padding:3% 0 0 4%;
+}
+img{
+  width:90%;
+  height: auto;
+  padding:6.5% 0 0 7.5%;
+  position:relative;
+}
+i{
+  padding-left:3%;
+  font-size: 2vw;
+}
+.description{
+  font-family:'Open Sans', sans-serif;
+  padding:6% 8% 0 0;
+}
+.body-title{
+  font-size: 2.3vw;
+  font-weight: 900;
+  padding-right: 7%;
+}
+.body-text{
+  color:#D3D3D3;
+  font-size: 1.3vw;
+}
+.btn{
+  padding:1% 10%;
+  color:hsl(257, 40%, 49%);
+  border-radius: 20px;
+}
+.btn:hover{
+  background-color:hsl(300, 69%, 71%);
+}
+.icon{
+  padding:22% 0 0 60%;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top:1%;
+}
+.attribution a {
+   color: #00005C;
+   text-decoration: none;
+}
+@media (max-width:995px){
+  body{
+    background-image: url("../images/bg-mobile.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  h3{
+    text-align: left;
+    margin: 5% 0 0 2.3%;
+    font-size: 1.8rem;
+  }
+  img{
+    padding:6% 5%;
+  }
+  .description{
+    padding:6% 15% 5%;
+  }
+  .body-title{
+    font-size: 1.5rem;
+  }
+  .body-text{
+    font-size: 1rem;
+  }
+  .icon{
+    padding:15% 0 0;
+  }
+  i{
+    font-size: 1.5rem;
+  }
+  .attribution{
+    margin-top: 0;
+  }
+
+}
