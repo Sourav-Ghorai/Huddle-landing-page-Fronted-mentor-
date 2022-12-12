@@ -5,22 +5,34 @@ body{
   background-size: cover;
   color:#F1F1F1;
 }
-h3{
-  font-family:'Poppins', sans-serif;
-  font-weight:bold;
-  font-size: 2.7vw;
-  padding:3% 0 0 4%;
-}
 img{
-  width:90%;
+  width:85%;
   height: auto;
-  padding:6.5% 0 0 7.5%;
+  padding:4% 0 0 7%;
   position:relative;
 }
 i{
-  padding-left:3%;
+  padding-right:20px;
   font-size: 2vw;
+  color:#fff;
 }
+
+/* Heading Section */
+
+.heading{
+  color:#fff;
+  font-family:'Poppins', sans-serif;
+  font-weight:bold;
+  font-size: 2.7vw;
+  padding: 3% 0 0 4%;
+  text-decoration: none;
+}
+.heading:hover{
+  color:hsl(300, 69%, 71%);
+}
+
+/* Text */
+
 .description{
   font-family:'Open Sans', sans-serif;
   padding:6% 8% 0 0;
@@ -34,41 +46,64 @@ i{
   color:#D3D3D3;
   font-size: 1.3vw;
 }
+
+/* Register Button */
+
 .btn{
   padding:1% 10%;
   color:hsl(257, 40%, 49%);
   border-radius: 20px;
 }
 .btn:hover{
+  color:#fff;
   background-color:hsl(300, 69%, 71%);
 }
+
+/* Social Icons */
+
 .icon{
-  padding:22% 0 0 60%;
+  padding:16% 0 0 63%;
 }
+.fa-facebook:hover{
+  color:#0070ff;
+}
+.fa-instagram:hover{
+  color:#cd486b;
+}
+.fa-twitter:hover{
+  color: #00acee;
+}
+/* Footer */
 
 .attribution {
   font-size: 0.8rem;
   text-align: center;
-  margin-top:1%;
 }
 .attribution a {
    color: #00005C;
    text-decoration: none;
 }
+.attribution a:hover{
+  color:#009EFF;
+}
+
+/* Media Query */
+
 @media (max-width:995px){
   body{
-    background-image: url("../images/bg-mobile.svg");
-    background-color: hsl(257, 40%, 49%);
-    background-repeat: no-repeat;
     text-align: center;
-  }
-  h3{
-    text-align: left;
-    margin: 5% 0 0 2.3%;
-    font-size: 1.8rem;
   }
   img{
     padding:6% 5%;
+    width:80%;
+  }
+  i{
+    font-size: 1.5rem;
+  }
+  .heading{
+    text-align: left;
+    margin: 3% 0 0 12%;
+    font-size: 1.8rem;
   }
   .description{
     padding:6% 15% 5%;
@@ -82,11 +117,7 @@ i{
   .icon{
     padding:15% 0 0;
   }
-  i{
-    font-size: 1.5rem;
-  }
   .attribution{
     margin-top: 0;
   }
-
 }
